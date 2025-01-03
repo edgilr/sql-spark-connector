@@ -25,7 +25,7 @@ jobs:
     - name: Build and run tests
       run: mvn clean package -P ${{ matrix.profile }}
     - name: Upload JAR as an artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
-        name: my-app-jar
+        name: spark-mssql-connector_2.12-1.4.0
         path: target/*.jar
