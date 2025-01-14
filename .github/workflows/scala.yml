@@ -29,3 +29,5 @@ jobs:
       with:
         name: spark-mssql-connector_2.12-1.4.0
         path: target/*.jar
+
+
